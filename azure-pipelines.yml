@@ -8,9 +8,9 @@ trigger:
 
 resources:
   pipelines:
-  - pipeline: Jobs-CICD # Name of the pipeline resource.
-    source: security-lib-ci # The name of the pipeline referenced by this pipeline resource.
-    project: FabrikamProject # Required only if the source pipeline is in another project
+  - pipeline: WebApplication8 # Name of the pipeline resource.
+    source: Jobs-CICD # The name of the pipeline referenced by this pipeline resource.
+    project: Cats sample PHP # Required only if the source pipeline is in another project
     trigger: true
 
 pool:
