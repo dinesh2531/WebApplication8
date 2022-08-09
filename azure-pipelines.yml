@@ -9,7 +9,7 @@ trigger:
 resources:
   pipelines:
   - pipeline: WebApplication8 # Name of the pipeline resource.
-    source: Jobs-CICD # The name of the pipeline referenced by this pipeline resource.
+    source: Cats sample PHP-CI (2) # The name of the pipeline referenced by this pipeline resource.
     project: Cats sample PHP # Required only if the source pipeline is in another project
     trigger: true
 
